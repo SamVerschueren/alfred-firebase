@@ -1,0 +1,45 @@
+{
+  "name": "alfred-firebase",
+  "version": "0.0.0",
+  "description": "Search through the Firebase documentation",
+  "license": "MIT",
+  "repository": "SamVerschueren/alfred-firebase",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "firebase",
+    "fire",
+    "documentation",
+    "google",
+    "productivity"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
