@@ -1,6 +1,6 @@
 {
   "name": "alfred-firebase",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Search through the Firebase documentation",
   "license": "MIT",
   "repository": "SamVerschueren/alfred-firebase",
